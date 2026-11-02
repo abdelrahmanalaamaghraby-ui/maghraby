@@ -61,6 +61,30 @@ Never commit edits, delete pages (`merge-designs`) or overwrite with `autofill-d
 - Pick a font that renders all Arabic glyphs; Canva's Translate setting "Mirror page to match text direction" can mirror a layout.
 - One numeral system per design (١٢٣ or 123). Don't mix Arabic and Latin in one line unless necessary.
 
+## 2.6 Arabic social media playbook (learned from pro reference work)
+
+Define a **series system** before the first post and reuse it on every post:
+- 2 background colors (alternate them across the 3-column feed grid) + 1 accent + neutrals.
+- Heading font (heavy, 800–900) + body font (400–500). Cairo / Tajawal / Almarai / El Messiri; calligraphy (Thuluth/Diwani style) only as a single premium hero (e.g. a campaign name), never for body.
+- One image style for the whole series: cut-out 3D objects, warm-graded photos, or surreal collage.
+- One motif: a cultural pattern (Sadu, Islamic geometry) on edges or as a low-opacity watermark, or a supergraphic derived from the logo shape that continues across adjacent posts.
+
+Fixed zones on every post: logo/partner logos (top center or one fixed corner) · headline zone · hero zone · footer (phone, website or handle; QR for events).
+
+Headline: max 2 lines, very heavy weight. Emphasize **one** word only, using one of: accent color, a solid accent rectangle behind it (`insert_shape` + `layer_element: back`), an 8–12px underline bar, or kashida/tatweel stretching (طبـــاعة).
+
+Hero: one cut-out subject (`generate-image` → `remove-background` → `insert_fill`), may overlap frame/card edges for depth. Keep lighting/color grading identical across the series.
+
+Backgrounds: textured (paper, grain, soft gradient, vignette) rather than flat.
+
+Information-heavy posts (events, competitions, courses): never paragraphs. Use modules: pill sub-heading → 2×2 icon cards (rounded 16–24px) → speaker card (cut-out photo + name + title) → date/time/place rows with icons → CTA pill "سجّل الآن" + QR + phone.
+
+Content mix in one template family: service · offer (giant 3D-style number in accent) · engagement question · tip/info · quote (torn-paper note) · timeline.
+
+Carousel: cover = topic + one stretched/highlighted word + numeric promise ("10 نقاط") + storytelling hero (subject + props); every slide shows a swipe cue (arrow in circle or progress dashes) in the same spot; last slide = one CTA.
+
+Canva limits: the connector cannot add drop shadows, text effects or change font family. Put fonts/styles in a Brand Kit or a master Brand Template; build one master post, tag fields with `update_autofill_field`, `publish-brand-template`, then produce the series with `autofill-design`.
+
 ## 3. Per-type specs
 
 ### Social media

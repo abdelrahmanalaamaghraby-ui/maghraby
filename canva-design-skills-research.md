@@ -274,7 +274,7 @@
 | الريبو | ⭐ | ملاحظة |
 |---|---|---|
 | stanesjenson11-lgtm/Folio---Claude-Design-Skill-For-Poster-Brochure-Magazine | 3 | مطبوعات: مجلات، **برشورز، كومباني بروفايل**، بوسترات. |
-| alphaparkinc/genpark-print-ready-vector-brochure-catalog-typesetter-skill | 8 | برشور/كتالوج جاهز للطباعة CMYK. |
+| ~~alphaparkinc/genpark-…brochure~~ | 8 | ❌ اتضح بعد المراجعة إنه مزيف (بيرجّع نتايج ثابتة). |
 
 ### إنفوجرافيك (للبروفايل والبرزنتيشن)
 | الريبو | ⭐ | ملاحظة |
@@ -288,3 +288,5 @@
 3. **حسب النوع:** `arabic-brand-carousel` للسوشيال العربي · `Mck-ppt-design-skill` للبرزنتيشن · `ResumeSkills` للـ CV · `Folio` للبروفايل والبرشور.
 4. **ضد الشكل المكرر:** `hallmark`.
 5. ثبّت كل واحد على حدة واختبره على طلب حقيقي قبل ما تضيف التاني — كتر السكيلز المتعارضة بيلخبط Claude.
+
+> **تحديث:** المراجعة الأمنية ومراجعة الجودة لـ 12 ريبو موجودة في `github-design-skills-review.md`، وتحليل 6 تصميمات مرجعية في `design-inspiration-analysis.md`.
