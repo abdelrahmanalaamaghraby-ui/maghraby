@@ -63,6 +63,9 @@ Never commit edits, delete pages (`merge-designs`) or overwrite with `autofill-d
 
 ## 2.6 Arabic social media playbook (learned from pro reference work)
 
+Canva-only rule: build everything with the Canva connector tools (and, where a step says so, the user's own manual touch in the Canva editor). Do not render HTML, run scripts, or use non-Canva asset services for these designs.
+Ready-made recipes for 6 reference styles (seasonal heritage campaign, brand puzzle feed, news carousel cover, institutional series, Gulf storytelling carousel, event/competition stories) are in `references/arabic-social-recipes.md`. Read it when the user asks for a social campaign, series, carousel or event posts.
+
 Define a **series system** before the first post and reuse it on every post:
 - 2 background colors (alternate them across the 3-column feed grid) + 1 accent + neutrals.
 - Heading font (heavy, 800–900) + body font (400–500). Cairo / Tajawal / Almarai / El Messiri; calligraphy (Thuluth/Diwani style) only as a single premium hero (e.g. a campaign name), never for body.
@@ -83,7 +86,7 @@ Content mix in one template family: service · offer (giant 3D-style number in a
 
 Carousel: cover = topic + one stretched/highlighted word + numeric promise ("10 نقاط") + storytelling hero (subject + props); every slide shows a swipe cue (arrow in circle or progress dashes) in the same spot; last slide = one CTA.
 
-Canva limits: the connector cannot add drop shadows, text effects or change font family. Put fonts/styles in a Brand Kit or a master Brand Template; build one master post, tag fields with `update_autofill_field`, `publish-brand-template`, then produce the series with `autofill-design`.
+Canva limits: the connector cannot add drop shadows, text effects, QR codes, Canva Elements-library graphics, or change font family. List these as "manual finishing in the Canva editor" for the user (e.g. Effects → Shadow, Apps → QR Code, Elements search "Sadu pattern"). Put fonts/styles in a Brand Kit or a master Brand Template; build one master post, tag fields with `update_autofill_field`, `publish-brand-template`, then produce the series with `autofill-design`.
 
 ## 3. Per-type specs
 
@@ -105,7 +108,7 @@ Rules: one message per post; minimal on-image text; a series uses 2–3 fixed la
 A4 (portrait default), 12–24 pages, 3mm bleed, 10–15mm safe margin. Sections: cover, chairman/CEO word, about, vision/mission/values, services, projects/case studies, numbers, clients/partners, team, certifications, contact, back cover. Fixed header/footer, page numbers, logo position. Export: PDF Print + CMYK + crop marks & bleed for print; standard compressed PDF for digital.
 
 ### CV / Resume
-A4 or Letter, 1 page (2 max for 10+ years). ATS-safe: single or simple two-column, no text in images, standard headings. Order: name + title, contact, 3–4 line summary, experience (reverse-chronological, quantified achievements), education, skills, certifications, languages. Body 10–12pt, section 14–18pt, name 22–28pt, one accent color. Offer a parallel .docx version (docx skill) for ATS portals.
+A4 or Letter, 1 page (2 max for 10+ years). ATS-safe: single or simple two-column, no text in images, standard headings. Order: name + title, contact, 3–4 line summary, experience (reverse-chronological, quantified achievements), education, skills, certifications, languages. Body 10–12pt, section 14–18pt, name 22–28pt, one accent color. Export from Canva as PDF (`export-design`, type pdf); keep the layout simple so ATS portals can parse the PDF text.
 
 ### Brochure
 Tri-fold A4 (297×210mm, 2 sides, 3 panels; inner fold panel 2–3mm narrower) or bi-fold A4→A5. Panel order outside: back-middle, cover-right (mirrored for Arabic). Keep text ≥ 5mm from folds, 3mm bleed. Export PDF Print + CMYK.
