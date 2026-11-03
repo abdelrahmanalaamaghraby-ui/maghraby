@@ -1,24 +1,23 @@
-# Color by Code Mega Book — ملفات KDP جاهزة للرفع
+# Color by Code Mega Book — KDP-Ready Files
 
-| الملف | الوصف |
+| File | Description |
 |---|---|
-| `output/interior.pdf` | الصفحات الداخلية: 364 صفحة، 8.5×11 بوصة، أبيض وأسود، بدون Bleed |
-| `output/cover.pdf` | الغلاف كامل (ضهر + كعب + وش): 18.070 × 11.250 بوصة، كعب 0.820 بوصة (ورق أبيض) |
-| `build.py` | السكريبت اللي بيبني الملفين: `python3 build.py` |
-| `designs.py` | الـ 167 صورة Pixel Art (150 مستخدمة + 17 احتياطي لجزء تاني) |
-| `fonts/` | خطوط Andika و Fredoka (رخصة SIL OFL، مسموحة تجارياً) |
+| `output/interior.pdf` | Interior: 364 pages, 8.5x11 in, black & white, no bleed |
+| `output/cover.pdf` | Full-wrap cover (back + spine + front): 18.070 x 11.250 in, spine 0.820 in (white paper) |
+| `build.py` | Builds both PDFs: `python3 build.py` |
+| `designs.py` | 177 original pixel-art pictures (shared by all color-by-code books) |
+| `fonts/` | Andika and Fredoka fonts (SIL Open Font License, commercial use allowed) |
 
-## إعدادات الرفع على KDP (Paperback)
+## KDP upload settings (Paperback)
 - **Ink and Paper:** Black & white interior with **white** paper
 - **Trim size:** 8.5 x 11 in
-- **Bleed:** No Bleed (الداخلي) — الغلاف معمول بـ Bleed 0.125 بوصة
+- **Bleed:** No Bleed (interior) — the cover already includes 0.125 in bleed
 - **Cover finish:** Glossy
 - **Cover:** Upload a cover you already have → `output/cover.pdf`
-- **Page count:** 364 (لو اتغيّر عدد الصفحات لازم الغلاف يتبني من جديد عشان الكعب)
-- **AI disclosure:** الصور مرسومة يدوياً كـ Pixel Art بالكود والنصوص مكتوبة بمساعدة Claude.
-  في سؤال "AI-generated content" اختار الإجابة اللي تناسب الكلام ده (النصوص/الصور اتعملت بمساعدة AI) — الأفضل تختار **Yes** للنصوص والصور عشان تكون في الأمان.
+- **Page count:** 364 (if the page count ever changes, rebuild the cover so the spine matches)
+- **AI disclosure:** pictures and text were made with AI assistance — answer **Yes** for text and images.
 
-## بيانات الـ Listing
+## Listing content
 
 **Title:** Color by Code Mega Book
 
@@ -46,7 +45,7 @@
 >
 > Perfect for kindergarten, first and second grade, homeschool, classroom centers, quiet time, and travel. A screen-free gift that makes practice feel like play!
 
-**Keywords (7 خانات):**
+**Keywords (7 boxes):**
 1. color by number for kids ages 5-8
 2. color by sight words kindergarten
 3. first grade math workbook addition subtraction
@@ -62,9 +61,9 @@
 
 **Reading age:** 5–8 | **Grade:** Kindergarten – 2
 
-**Price:** 12.99$ (أو 14.99$ بعد ما يجيب أول تقييمات). تكلفة الطباعة التقريبية لـ 364 صفحة ≈ 1.00$ + 364 × 0.012$ = **5.37$** — راجع الرقم الحقيقي في صفحة Pricing على KDP.
+**Price:** $12.99 (or $14.99 after the first reviews). Estimated print cost for 364 pages ≈ $1.00 + 364 × $0.012 = **$5.37** — confirm on the KDP Pricing page.
 
-## قبل الرفع — Checklist
-- [ ] اطبع أو افتح `interior.pdf` واتفرج على عينة صفحات
-- [ ] اطلب **Proof copy** (نسخة تجريبية) قبل النشر
-- [ ] بعد النشر، اعمل A+ Content بصور من الكتاب
+## Before uploading — checklist
+- [ ] Open `interior.pdf` and review sample pages
+- [ ] Order a **printed proof copy** before publishing
+- [ ] After publishing, add A+ Content with sample page images
